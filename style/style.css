@@ -23,6 +23,7 @@ body {
 img {
   width: 100%;
   height: auto;
+  overflow: hidden;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -62,13 +63,19 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 }
 img{
-  width:50px;
+  width: 80px;
+}
+.menu-bar{
+  font-size: 22px;
+  color: white;
+  margin-left: 250px;
 }
 nav ul li a{
   color: #fff;
+  display: none;
 }
 #head{
   margin-top: -25px;
@@ -76,34 +83,198 @@ nav ul li a{
   padding: 20px 40px;
 }
 .head-main img{
-  width: 550px;
+  width: 560px;
   margin-left: -200px;
 }
 h1{
   color: #fff;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 hr{
-  width: 80%;
+  width: 90%;
   border: 1px solid #fff;
   margin-bottom: 30px;
 }
 .head-desc{
-  margin-right: 100px;
-  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
 }
 .head-desc p{
   text-align: right;
   color: #fff;
   line-height: 2;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
+#understanding-brain{
+  background-color: #C9A3A4;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#understanding-brain img{
+  width: 275px;
+  margin-top: -110px;
+  margin-left: 330px;
+  rotate: 75deg;
+}
+.title{
+  margin-top: -350px;
+  margin-left: 20px;
+}
+#understanding-brain h1{
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+#understanding-brain hr{
+  width: 90%;
+  border: 1px solid #fff;
+  margin-left: 20px;
+}
+.para-1{
+  color: #fff;
+  margin-left: 20px;
+  margin-top: -70px;
+}
+.para-1 p{
+  line-height: 7;
+  font-weight: 500;
+}
+#interfacing-brain{
+  background-color: #A7CEEF;
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 
+}
+#interfacing-brain img{
+  width: 275px;
+  margin-top: 15px;
+  margin-left: 250px;
+}
+#interfacing-brain h1{
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-top: -225px;
+  padding: 0px 20px;
+}
+#interfacing-brain hr{
+  width: 90%;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  margin-top: -125px;
+}
+.para-2{
+  color: #fff;
+  margin-left: 20px;
+  margin-top: -70px;
+}
+.para-2 p{
+  line-height: 7;
+  font-weight: 500;
+}
+#engineering-brain{
+  background-color: #BBBFBF;
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#engineering-brain img{
+  width: 275px;
+  margin-left: 225px;
+  opacity: 70%;
+}
+#engineering-brain h1{
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-top: -225px;
+  padding: 0px 20px;
+}
+#engineering-brain hr{
+  width: 90%;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  margin-top: -125px;
+}
+.para-3{
+  color: #fff;
+  margin-left: 20px;
+  margin-top: -100px;
+}
+.para-3 p{
+  line-height: 7;
+  font-weight: 500;
+}
+#footer{
+  background: linear-gradient(#c69e70, #a27b4e);
+  margin-top: -5px;
+  padding: 20px 40px;
+  overflow: hidden;
+}
+#footer img{
+  width: 1600px;
+  height: 100vh;
+  margin-left: -780px;
+  margin-bottom: -100px;
+  rotate: 0deg;
+  z-index: 0;
+  position: relative;
+}
+#footer p{
+  color: #fff;
+}
+#footer p .reach{
+  color: #fff;
+}
+.reach{
+  position: absolute;
+  margin-top: -30px;
+  z-index: 1;
+}
+footer{
+  background-color: #fff;
+  width: 100%;
+  height: 400px;
+  padding: 40px;
+}
+#footer-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 100px;
+}
+#footer-left img{
+  width: 70px;
+  margin-left: -10px;
+}
+#footer-left a{
+  color: #858686;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 14px;
 
-
-
-
+}
+#footer-right .footer-menu{
+  display: none;
+}
+#footer-right .email{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.email a{
+  color: #858686;
+  font-weight: 500;
+  font-size: 14px;
+}
 
 
 
