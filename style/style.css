@@ -299,7 +299,7 @@ footer{
 
 /* Large devices (desktops) */
 
-@media (min-width: 991px) {
+@media (max-width: 768px) {
   .menu-bar{
     display: none;
   }
