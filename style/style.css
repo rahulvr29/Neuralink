@@ -222,14 +222,14 @@ main{
 #engineering-brain h1{
   font-size: 2.2rem;
   font-weight: 400;
-  margin-top: -205px;
+  margin-top: -180px;
   padding: 0px 20px;
 }
 #engineering-brain hr{
   width: 90%;
   border: 1px solid #fff;
   margin-left: 20px;
-  margin-top: -125px;
+  margin-top: -105px;
 }
 #engineering-brain .fig{
   margin-top: 25px;
@@ -330,7 +330,6 @@ footer{
 /* Medium devices (tablets) */
 
 @media (min-width: 768px) {
-  
 }
 
 /* Large devices (desktops) */
@@ -437,6 +436,7 @@ footer{
   .fig{
     position: absolute;
     left: 150px;
+    margin-top: 100px;
   }
   .para-1 .science{
     position: absolute;
@@ -456,10 +456,11 @@ footer{
     margin-top: 50px;
     margin-left: 30px;
     position: absolute;
-    top: 175px;
+    top: 205px;
   }
   .title-1{
-    margin-top: 225px;
+    position: absolute;
+    margin-top: -300px;
     margin-left: -5px;
   }
   #interfacing-brain h1{
@@ -468,16 +469,19 @@ footer{
   }
   #interfacing-brain hr{
     width: 85%;
-    margin-top: -40px;
+    position: absolute;
+    margin-top: 200px;
     border: 1px solid #fff;
     margin-left: 20px;
   }
   .fig{
+    position: absolute;
+    top: 30px;
     margin-left: 250px;
   }
   .para-2 .approach{
     position: absolute;
-    margin-top: 410px;
+    top: 325px;
   }
   .para-2 span{
     margin-left: 10px;
@@ -495,8 +499,12 @@ footer{
     position: absolute;
     top: 175px;
   }
+  #engineering-brain .fig{
+    position: absolute;
+    top: 120px;
+  }
   .title-2{
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: -5px;
   }
   #engineering-brain h1{
@@ -505,7 +513,7 @@ footer{
   }
   #engineering-brain hr{
     width: 85%;
-    margin-top: -100px;
+    margin-top: -50px;
     border: 1px solid #fff;
     margin-left: 20px;
   }
@@ -573,6 +581,9 @@ footer{
   .reach{
     position: absolute;
     margin-top: 700px;
+    margin-left: 20px;
+  }
+  .desc .reach span{
     margin-left: 20px;
   }
   footer{
