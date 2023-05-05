@@ -284,8 +284,12 @@ footer{
   font-weight: 500;
   font-size: 14px;
 }
-
-
+#footer .desc{
+  flex-basis: 100%;
+}
+#footer .footer-img{
+  flex-basis: 100%;
+}
 
 
 
@@ -299,7 +303,10 @@ footer{
 
 /* Large devices (desktops) */
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
+  body{
+    overflow: auto;
+  }
   .menu-bar{
     display: none;
   }
@@ -312,54 +319,78 @@ footer{
   }
   header{
     padding: 50px 30px;
+    position: relative;
   }
   img{
-    width: 100px;
-    margin-top: -100px;
+    width: 50px;
+    margin-top: -150px;
   }
   #head{
     overflow: hidden;
+    height: 450px;
   }
+  
   .head-main img{
     width: 1250px;
-    margin-top: -300px;
-    margin-left: -150px;
+    margin-top: -250px;
+    margin-left: 250px;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
   }
   h1{
-    font-size: 4rem;
+    font-size: 5rem;
+    position: absolute;
+    margin-top: -100px;
     margin-left: 20px;
     font-weight: 500;
   }
-  hr{
-    width: 40%;
+  .head-hr{
+    width: 50%;
+    position: absolute;
+    top: 550px;
+  }
+  .head-desc{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 600px;
   }
   .head-desc p{
-    margin-right: 550px;
+    margin-right: 20px;
+    
   }
   .head-desc p{
     text-align: right;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
   }
+
+  /* MAIN WORK */
+
   main{
     display: flex;
     overflow: hidden;
+    height: 700px;
   }
   #understanding-brain{
     width: 100%;
-    height: 50vh;
+    padding: 20px;
+    height: 100vh;
     position: relative;
   }
   #understanding-brain img{
-    width: 225px;
-    margin-top: 0px;
-    margin-left: 50px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 100px;
     position: absolute;
     top: 175px;
     rotate: 0deg;
   }
   .title{
-    margin-top:  0px;
+    margin-top:  150px;
     margin-left: -5px;
   }
   #understanding-brain h1{
@@ -372,25 +403,28 @@ footer{
     margin-left: 20px;
   }
   .fig{
-    margin-left: 250px;
+    position: absolute;
+    left: 150px;
   }
-  .para-1 p{
-    margin-bottom: 275px;
+  .para-1 .science{
+    position: absolute;
+    margin-top: 450px;
   }
   .para-1 span{
     margin-left: 10px;
   }
   #interfacing-brain{
     width: 100%;
-    height: 50vh;
+    padding: 20px;
+    height: 100vh;
     position: relative;
   }
   #interfacing-brain img{
-    width: 350px;
-    margin-left: -10px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
     position: absolute;
-    top: 200px;
-    
+    top: 175px;
   }
   .title-1{
     margin-top: 225px;
@@ -409,25 +443,28 @@ footer{
   .fig{
     margin-left: 250px;
   }
-  .para-2 p{
-    margin-bottom: 250px;
+  .para-2 .approach{
+    position: absolute;
+    margin-top: 410px;
   }
   .para-2 span{
     margin-left: 10px;
   }
   #engineering-brain{
     width: 100%;
-    height: 50vh;
-    position: relative;
+    padding: 20px;
+    height: 100vh;
+    position: relative;;
   }
   #engineering-brain img{
-    width: 350px;
-    margin-left: -10px;
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 30px;
     position: absolute;
-    top: 275px;
+    top: 175px;
   }
   .title-2{
-    margin-top: 225px;
+    margin-top: 250px;
     margin-left: -5px;
   }
   #engineering-brain h1{
@@ -436,35 +473,41 @@ footer{
   }
   #engineering-brain hr{
     width: 85%;
-    margin-top: -50px;
+    margin-top: -100px;
     border: 1px solid #fff;
     margin-left: 20px;
   }
   #engineering-brain .fig{
     margin-left: 250px;
-    margin-top: 30px;
+    margin-top: 25px;
   }
-  #engineering-brain .para-3 p{
-    margin-bottom: 265px;
+  #engineering-brain .para-3 .application{
+    position: absolute;
+    margin-top: 475px
   }
   .para-3 span{
     margin-left: 10px;
   }
+
+  /* FOOTER WORK */
+
   #footer{
     background: linear-gradient(#c69e70, #a27b4e);
     overflow: hidden;
     width: 100%;
-    height: 800px;
+    height: 700px;
     display: flex;
+    position: relative;
+  }
+  #footer .desc, #footer .footer-img{
+    flex-basis: 45%;
   }
   #footer img{
-    width: 4000px;
-    height: 100vh;
-    margin-left: -580px;
-    margin-right: -50px;
-    margin-bottom: 00px;
-    z-index: 0;
-    position: relative;
+    width: 3250px;
+    height: 1100px;
+    position: absolute;
+    top: 150px;
+    left: -100px;
   }
   .desc{
     z-index: 2;
@@ -472,14 +515,20 @@ footer{
   .desc h1{
     font-size: 3rem;
     font-weight: 300;
+    position: absolute;
+    top: 200px ;
   }
   .desc hr{
-    width: 80%;
+    width: 30%;
     margin-left: 20px;
+    position: absolute;
+    top: 250px ;
   }
   .desc p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 300;
     margin-left: 20px;
+    margin-top: 250px;
   }
   #footer p{
     color: #fff;
@@ -499,6 +548,7 @@ footer{
     height: 300px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
   }
   #footer-left{
     display: flex;
