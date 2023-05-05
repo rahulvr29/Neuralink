@@ -67,11 +67,16 @@ header{
 }
 img{
   width: 80px;
+  cursor: pointer;
 }
 .menu-bar{
   font-size: 22px;
   color: white;
   margin-left: 250px;
+  cursor: pointer;
+}
+.menu-bar:hover{
+  color: #000;
 }
 nav ul li a{
   color: #fff;
@@ -142,6 +147,7 @@ hr{
 .para-1 p{
   line-height: 7;
   font-weight: 500;
+  cursor: pointer;
 }
 #interfacing-brain{
   background-color: #A7CEEF;
@@ -177,6 +183,7 @@ hr{
 .para-2 p{
   line-height: 7;
   font-weight: 500;
+  cursor: pointer;
 }
 #engineering-brain{
   background-color: #BBBFBF;
@@ -211,6 +218,7 @@ hr{
 .para-3 p{
   line-height: 7;
   font-weight: 500;
+  cursor: pointer;
 }
 #footer{
   background: linear-gradient(#c69e70, #a27b4e);
@@ -237,6 +245,7 @@ hr{
   position: absolute;
   margin-top: -30px;
   z-index: 1;
+  cursor: pointer;
 }
 footer{
   background-color: #fff;
