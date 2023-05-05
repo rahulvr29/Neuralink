@@ -112,6 +112,10 @@ hr{
   font-size: 1rem;
   font-weight: 500;
 }
+main{
+  overflow: hidden;
+  position: relative;
+}
 #understanding-brain{
   background-color: #C9A3A4;
   width: 100%;
@@ -149,6 +153,9 @@ hr{
   font-weight: 500;
   cursor: pointer;
 }
+.para-1 span{
+  margin-left: 10px;
+}
 #interfacing-brain{
   background-color: #A7CEEF;
   width: 100vw;
@@ -156,29 +163,43 @@ hr{
   display: flex;
   flex-direction: column;
   overflow: hidden;
-
 }
 #interfacing-brain img{
   width: 275px;
+  position: absolute;
   margin-top: 15px;
   margin-left: 250px;
 }
 #interfacing-brain h1{
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 400;
-  margin-top: -205px;
+  position: absolute;
+  top:0px;
+  margin-top: 325px;
   padding: 0px 20px;
 }
 #interfacing-brain hr{
   width: 90%;
   border: 1px solid #fff;
   margin-left: 20px;
-  margin-top: -125px;
+  position: absolute;
+  margin-top: 125px;
+}
+#interfacing-brain .fig{
+  position: absolute;
+  margin-top: 155px;
 }
 .para-2{
   color: #fff;
   margin-left: 20px;
   margin-top: -70px;
+}
+.approach{
+  position: absolute;
+  margin-top: 250px;
+}
+.para-2 span{
+  margin-left: 10px;
 }
 .para-2 p{
   line-height: 7;
@@ -201,7 +222,7 @@ hr{
 #engineering-brain h1{
   font-size: 2.2rem;
   font-weight: 400;
-  margin-top: -225px;
+  margin-top: -205px;
   padding: 0px 20px;
 }
 #engineering-brain hr{
@@ -209,6 +230,9 @@ hr{
   border: 1px solid #fff;
   margin-left: 20px;
   margin-top: -125px;
+}
+#engineering-brain .fig{
+  margin-top: 25px;
 }
 .para-3{
   color: #fff;
@@ -219,6 +243,9 @@ hr{
   line-height: 7;
   font-weight: 500;
   cursor: pointer;
+}
+.para-3 span{
+  margin-left: 10px;
 }
 #footer{
   background: linear-gradient(#c69e70, #a27b4e);
@@ -241,9 +268,13 @@ hr{
 #footer p .reach{
   color: #fff;
 }
+.desc span{
+  position: absolute;
+  left:100px;
+}
 .reach{
   position: absolute;
-  margin-top: -30px;
+  margin-top: 450px;
   z-index: 1;
   cursor: pointer;
 }
@@ -299,6 +330,7 @@ footer{
 /* Medium devices (tablets) */
 
 @media (min-width: 768px) {
+  
 }
 
 /* Large devices (desktops) */
