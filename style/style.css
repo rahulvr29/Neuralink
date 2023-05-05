@@ -160,7 +160,7 @@ hr{
 #interfacing-brain h1{
   font-size: 2.2rem;
   font-weight: 400;
-  margin-top: -225px;
+  margin-top: -205px;
   padding: 0px 20px;
 }
 #interfacing-brain hr{
@@ -291,6 +291,235 @@ footer{
 /* Large devices (desktops) */
 
 @media (min-width: 991px) {
+  .menu-bar{
+    display: none;
+  }
+  nav ul li a{
+    color: #fff;
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+    line-height: 1.5;
+  }
+  header{
+    padding: 50px 30px;
+  }
+  img{
+    width: 100px;
+    margin-top: -100px;
+  }
+  #head{
+    overflow: hidden;
+  }
+  .head-main img{
+    width: 1250px;
+    margin-top: -300px;
+    margin-left: -150px;
+  }
+  h1{
+    font-size: 4rem;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  hr{
+    width: 40%;
+  }
+  .head-desc p{
+    margin-right: 550px;
+  }
+  .head-desc p{
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  main{
+    display: flex;
+    overflow: hidden;
+  }
+  #understanding-brain{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
+  #understanding-brain img{
+    width: 225px;
+    margin-top: 0px;
+    margin-left: 50px;
+    position: absolute;
+    top: 175px;
+    rotate: 0deg;
+  }
+  .title{
+    margin-top:  0px;
+    margin-left: -5px;
+  }
+  #understanding-brain h1{
+    font-size: 2.7rem;
+    font-weight: 500;
+  }
+  #understanding-brain hr{
+    width: 85%;
+    border: 1px solid #fff;
+    margin-left: 20px;
+  }
+  .fig{
+    margin-left: 250px;
+  }
+  .para-1 p{
+    margin-bottom: 275px;
+  }
+  .para-1 span{
+    margin-left: 10px;
+  }
+  #interfacing-brain{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
+  #interfacing-brain img{
+    width: 350px;
+    margin-left: -10px;
+    position: absolute;
+    top: 200px;
+    
+  }
+  .title-1{
+    margin-top: 225px;
+    margin-left: -5px;
+  }
+  #interfacing-brain h1{
+    font-size: 2.7rem;
+    font-weight: 500;
+  }
+  #interfacing-brain hr{
+    width: 85%;
+    margin-top: -40px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+  }
+  .fig{
+    margin-left: 250px;
+  }
+  .para-2 p{
+    margin-bottom: 250px;
+  }
+  .para-2 span{
+    margin-left: 10px;
+  }
+  #engineering-brain{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
+  #engineering-brain img{
+    width: 350px;
+    margin-left: -10px;
+    position: absolute;
+    top: 275px;
+  }
+  .title-2{
+    margin-top: 225px;
+    margin-left: -5px;
+  }
+  #engineering-brain h1{
+    font-size: 2.7rem;
+    font-weight: 500;
+  }
+  #engineering-brain hr{
+    width: 85%;
+    margin-top: -50px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+  }
+  #engineering-brain .fig{
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+  #engineering-brain .para-3 p{
+    margin-bottom: 265px;
+  }
+  .para-3 span{
+    margin-left: 10px;
+  }
+  #footer{
+    background: linear-gradient(#c69e70, #a27b4e);
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+    display: flex;
+  }
+  #footer img{
+    width: 4000px;
+    height: 100vh;
+    margin-left: -580px;
+    margin-right: -50px;
+    margin-bottom: 00px;
+    z-index: 0;
+    position: relative;
+  }
+  .desc{
+    z-index: 2;
+  }
+  .desc h1{
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .desc hr{
+    width: 80%;
+    margin-left: 20px;
+  }
+  .desc p{
+    font-size: 1.3rem;
+    margin-left: 20px;
+  }
+  #footer p{
+    color: #fff;
+  }
+  .reach{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .reach{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 20px;
+  }
+  footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer-left{
+    display: flex;
+    flex-direction: row;
+  }
+  #footer-left img{
+    width: 100px;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  #footer-left a{
+    font-size: 1.2rem;
+  }
+  #footer-right {
+    display: flex;
+    margin-right: 50px;
+  }
+  #footer-right .footer-menu{
+    display: block;
+  }
+  .footer-menu nav ul li a{
+    color: #858686;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .email a{
+    font-size: 1rem;
+  }
+
 }
 
 /* Extra large devices (large desktops) */
